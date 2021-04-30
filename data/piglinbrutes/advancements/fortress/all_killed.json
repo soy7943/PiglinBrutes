@@ -1,0 +1,24 @@
+{
+	"parent":"piglinbrutes:fortress/entered_ruins",
+	"display":{
+		"icon":{
+			"item":"golden_axe",
+			"nbt":"{Enchantments:[{}]}"
+		},
+		"title":[
+			{"text":"【全てのピグリンブルート討伐完了】","bold":true,"color":"dark_purple"}
+		],
+		"description":[
+			{"text":"砦の遺跡内の全てのピグリンブルートを討伐する。","color":"aqua"}
+		],
+		"frame":"challenge",
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"criteria":{
+		"all_killed":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

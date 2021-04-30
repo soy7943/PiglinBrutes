@@ -1,0 +1,29 @@
+{
+	"parent":"piglinbrutes:fortress/root",
+	"display":{
+		"icon":{
+			"item":"shield",
+			"nbt":"{Enchantments:[{}]}"
+		},
+		"title":{
+			"text":"侵略開始！"
+		},
+		"description":{
+			"text":"砦の遺跡に侵入する。"
+		},
+		"frame":"goal",
+		"show_toast":false,
+		"announce_to_chat":false,
+		"hidden":false
+	},
+	"criteria":{
+		"requirement":{
+			"trigger":"minecraft:location",
+			"conditions":{
+				"location":{
+					"feature":"bastion_remnant"
+				}
+			}
+		}
+	}
+}

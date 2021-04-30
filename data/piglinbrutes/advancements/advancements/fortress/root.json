@@ -1,0 +1,26 @@
+{
+	"display":{
+		"icon":{
+			"item":"polished_blackstone_bricks"
+		},
+		"title":{
+			"text":"砦の遺跡の侵略"
+		},
+		"description":{
+			"text":"ピグリンブルート討伐へ向かえ"
+		},
+	    "frame":"task",
+	    "show_toast":false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background":"minecraft:textures/block/red_nether_bricks.png"
+	},
+	"criteria":{
+		"requirement":{
+			"trigger":"minecraft:changed_dimension",
+			"conditions":{
+				"to":"minecraft:the_nether"
+			}
+		}
+	}
+}
